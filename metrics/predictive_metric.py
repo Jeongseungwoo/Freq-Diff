@@ -1,21 +1,3 @@
-"""Reimplement TimeGAN-pytorch Codebase.
-
-Reference: Jinsung Yoon, Daniel Jarrett, Mihaela van der Schaar,
-"Time-series Generative Adversarial Networks,"
-Neural Information Processing Systems (NeurIPS), 2019.
-
-Paper link: https://papers.nips.cc/paper/8789-time-series-generative-adversarial-networks
-
-Last updated Date: October 18th 2021
-Code author: Zhiwei Zhang (bitzzw@gmail.com)
-
------------------------------
-
-predictive_metrics.py
-
-Note: Use Post-hoc RNN to predict one-step ahead (last feature)
-"""
-
 # Necessary Packages
 import tensorflow as tf
 import tensorflow._api.v2.compat.v1 as tf1
