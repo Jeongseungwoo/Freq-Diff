@@ -21,7 +21,7 @@ def parse_args():
     import argparse
     parser = argparse.ArgumentParser(description='Evaluation')
     parser.add_argument('-g', '--gpu', type=str, default='0')
-    parser.add_argument('-path', '--path', type=str, default='/DataCommon/swjeong/Diffusion-GM/experiments/')
+    parser.add_argument('-path', '--path', type=str, default='./experiments/')
     parser.add_argument('-date', '--date', type=str, default='0904')
     parser.add_argument('-datasets', '--datasets', type=str, default='sine') # sine, energy, etth, stock
     parser.add_argument('-iter', '--iter', type=int, default=5)
